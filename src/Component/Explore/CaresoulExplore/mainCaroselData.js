@@ -1,0 +1,22 @@
+export const mainCarouselData = [
+  {
+    image:
+      "https://cdn.pixabay.com/photo/2023/09/18/11/59/dining-area-8260387_1280.jpg",
+  },
+  {
+    image:
+      "https://cdn.pixabay.com/photo/2020/09/14/09/39/living-room-5570467_1280.jpg",
+  },
+  {
+    image:
+      "https://cdn.pixabay.com/photo/2021/10/06/15/05/bedroom-6686059_1280.jpg",
+  },
+  {
+    image:
+      "https://cdn.pixabay.com/photo/2016/12/30/07/59/kitchen-1940175_1280.jpg",
+  },
+  {
+    image:
+      "https://cdn.pixabay.com/photo/2020/09/01/12/52/living-room-5535181_1280.jpg",
+  },
+];

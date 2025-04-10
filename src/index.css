@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Signika+Negative:wght@300..700&display=swap');
+@import "tailwindcss";
+
+
+body {
+    font-family: "Signika Negative", serif;
+}
+
+/* hero-section */
+.bg-img {
+    background-image: url(./assets/images/background.jpg);
+    height: 97vh;
+    object-position: bottom;
+}
+
+/* magzine section */
+.bg-imgmag {
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/17/06/01/konsyap-2073436_1280.jpg");
+    /* background-image: url("https://cdn.pixabay.com/photo/2017/02/15/11/05/texture-2068283_1280.jpg"); */
+    /* height: 97vh; */
+    object-position: bottom;
+}
+
+.bg-imgmag1 {
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/27/05/05/architecture-168124_1280.jpg");
+    height: 97vh;
+    object-position: bottom;
+}
+
+.bg-img_gift {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/05/01/lights-1867437_1280.jpg");
+    height: 97vh;
+    object-position: bottom;
+}
+
+.bg-oth {
+    background-image: url("https://images.pexels.com/photos/697224/pexels-photo-697224.jpeg");
+    /* height: 97vh; */
+    object-position: bottom;
+}
+
+.bg-imgpro {
+    background-image: url("https://cdn.pixabay.com/photo/2015/06/29/08/19/leave-room-825316_1280.jpg");
+    /* height: 97vh; */
+    object-position: bottom;
+}
+
+.bg-imgpri {
+    background-image: url("https://images.pexels.com/photos/17918539/pexels-photo-17918539/free-photo-of-simplistic-bright-bedroom.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    /* height: 97vh; */
+    object-position: bottom;
+}
