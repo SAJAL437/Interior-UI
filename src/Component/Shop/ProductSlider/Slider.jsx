@@ -49,14 +49,14 @@ const Slider = ({ data, section_Name }) => {
       {/* Arrows visible on sm and up */}
       <button
         onClick={slidePrev}
-        className="absolute hidden sm:flex left-2 top-1/2 transform -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow-lg hover:bg-gray-200 transition"
+        className="absolute  sm:flex left-2 top-1/2 transform -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow-lg hover:bg-gray-200 transition"
       >
         <ChevronLeft />
       </button>
 
       <button
         onClick={slideNext}
-        className="absolute hidden sm:flex right-2 top-1/2 transform -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow-lg hover:bg-gray-200 transition"
+        className="absolute  sm:flex right-2 top-1/2 transform -translate-y-1/2 z-10 bg-white p-2 rounded-full shadow-lg hover:bg-gray-200 transition"
       >
         <ChevronRight />
       </button>

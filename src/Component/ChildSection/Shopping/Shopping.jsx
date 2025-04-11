@@ -6,8 +6,10 @@ import "./Shopping.css";
 import { products } from "./product";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
+import { useNavigate } from "react-router-dom";
 
 const Shopping = () => {
+  const navigate = useNavigate();
   return (
     <div className="relative px-5 py-6 mt-6 mb-4 pb-4">
       <div className="container mx-auto w-full">
@@ -22,7 +24,10 @@ const Shopping = () => {
               We have a wide range of handcrafted items that will make your home
               stand out.
             </p>
-            <button className="mt-3 px-3 py-2 text-sm font-bold font-semi-bold text-gray-800 bg-transparent rounded-full border  border-stone-600">
+            <button
+              onClick={() => navigate("/shop/products")}
+              className="mt-3 px-3 py-2 text-sm font-bold font-semi-bold text-gray-800 bg-transparent rounded-full border border-stone-600 cursor-pointer"
+            >
               Explore Products ..
             </button>
           </div>

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Companies from "./Companies";
 
 const WhatweDo = () => {
@@ -55,12 +56,12 @@ const WhatweDo = () => {
             </p>
 
             <div className="mt-6">
-              <a
-                href="#"
+              <Link
+                to="/explore"
                 className="inline-block bg-gray-300 text-gray-800 py-3 px-6 rounded-2xl text-lg hover:bg-gray-400 transition-colors"
               >
                 Explore
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -86,12 +87,12 @@ const WhatweDo = () => {
             </p>
 
             <div className="mt-6">
-              <a
-                href="#"
+              <Link
+                to="/explore"
                 className="inline-block bg-gray-300 text-gray-800 py-3 px-6 rounded-2xl text-lg hover:bg-gray-400 transition-colors"
               >
                 Explore
-              </a>
+              </Link>
             </div>
           </div>
 

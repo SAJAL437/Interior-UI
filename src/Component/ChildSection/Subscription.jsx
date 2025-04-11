@@ -15,7 +15,7 @@ const Subscription = () => {
           <form className="flex flex-col sm:flex-row items-center w-full max-w-md mt-6 space-y-3 sm:space-y-0 sm:space-x-3">
             <input
               type="email"
-              className="flex-1 py-3 px-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300"
+              className="flex-1 py-3 px-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-400 transition duration-300 text-gray-700"
               placeholder="Enter your email address"
               required
             />

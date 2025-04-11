@@ -6,11 +6,11 @@ import { LuAmpersand } from "react-icons/lu";
 import { useNavigate } from "react-router-dom";
 
 export const NAVIGATION_LINK = [
-  { id: 1, label: "Interior", href: "/" },
-  { id: 2, label: "Shop", href: "/shop/products" },
-  { id: 3, label: "Explore", href: "/explore" },
-  { id: 5, label: "Gift Cards", href: "/giftcards" },
+  { id: 1, label: "Interior", href: "/interior" },
+  { id: 2, label: "Explore", href: "/explore" },
+  { id: 3, label: "Gift Cards", href: "/giftcards" },
   { id: 4, label: "Blogs", href: "/blog" },
+  { id: 5, label: "Shop", href: "/shop/products" },
 ];
 
 export const DROPDOWN_DESIGN = [
@@ -30,7 +30,8 @@ export const DROPDOWN_DESIGN1 = [
 export const DROPDOWN_MORE = [
   { id: 14, label: "Pricing", href: "/more/Pricing" },
   { id: 15, label: "FAQs ", href: "/more/FAQS" },
-  { id: 16, label: "Aboutus & Contact ", href: "/more/Aboutus" },
+  { id: 16, label: "Aboutus  ", href: "/more/about" },
+  { id: 16, label: " Contact ", href: "/more/contact" },
 ];
 
 const Navbar = () => {
@@ -98,7 +99,7 @@ const Navbar = () => {
       {/* Desktop Mode */}
       <div className="mx-auto hidden max-w-7xl items-center justify-center rounded-2xl border bg-white/10 backdrop-blur-lg shadow-2xl shadow-gray-800 py-2 px-2 lg:flex ">
         <div className="flex items-center justify-between gap-10">
-          <a href="#" className="font-serif text-xl">
+          <a href="/" className="font-serif text-xl">
             EARNEST{" "}
             <span className="flex text-center">
               <LuAmpersand className="mt-1" /> FEAST

@@ -17,6 +17,7 @@
     "@mui/icons-material": "^7.0.0",
     "@mui/material": "^7.0.0",
     "@tailwindcss/vite": "^4.0.17",
+    "lucide-react": "^0.487.0",
     "react": "^19.0.0",
     "react-alice-carousel": "^2.9.1",
     "react-dom": "^19.0.0",

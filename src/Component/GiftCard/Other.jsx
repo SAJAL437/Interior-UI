@@ -77,7 +77,7 @@ const Other = () => {
         </div>
       </div>
 
-      <div className="flex justify-center flex-col items-center py-10 px-4 sm:px-6 lg:px-8">
+      <div className="flex justify-center flex-col items-center py-10 px-4 sm:px-6 lg:px-8 mt-10">
         <div className="text-center w-full max-w-screen-md">
           <h1 className="text-2xl md:text-4xl font-bold text-gray-900 pb-4">
             Give the Gift of Great Design
