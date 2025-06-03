@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const CalImage = [
   {
@@ -6,24 +7,28 @@ const CalImage = [
     description: "Discover the Estimated Cost of Transforming Your Home!",
     image:
       "https://cdn.pixabay.com/photo/2021/11/25/12/54/living-room-6823547_1280.png",
+    path: "/home-interior-price-calculator",
   },
   {
     title: "Kitchen Interior",
     description: "Estimate the cost of designing your dream kitchen!",
     image:
       "https://cdn.pixabay.com/photo/2023/03/15/20/47/ai-generated-7855429_1280.jpg",
+    path: "/kitchen-interior-price-calculator",
   },
   {
     title: "Wardrobe",
     description: "Get a Price Quote for Your Customized Wardrobe!",
     image:
       "https://www.ulcdn.net/images/products/956287/product/FNSGCB33BE36194_LP.jpg?1726470760",
+    path: "/wardrobe-interior-price-calculator",
   },
 ];
 
 const roomTitles = ["Kitchen", "Living Room", "Wardrobe", "Bathroom"];
 
 const Calculate = () => {
+  const navigate = useNavigate();
   const [currentTitle, setCurrentTitle] = useState(roomTitles[0]);
 
   useEffect(() => {
@@ -33,10 +38,14 @@ const Calculate = () => {
           (roomTitles.indexOf(prevTitle) + 1) % roomTitles.length;
         return roomTitles[nextIndex];
       });
-    }, 1500); // Change room title every 2 seconds
+    }, 1500);
 
     return () => clearInterval(interval);
   }, []);
+
+  const handleCalculate = () => {
+    navigate("/error-page");
+  };
 
   return (
     <div className="relative px-4 py-6 mt-6 mb-4 pb-4">
@@ -82,7 +91,10 @@ const Calculate = () => {
                 </div>
 
                 {/* Button Section */}
-                <button className="border border-gray-700 rounded-3xl cursor-pointer px-6 py-2 mt-2 text-gray-700 hover:bg-gray-700 hover:text-white transition-all">
+                <button
+                  onClick={() => handleCalculate("/error-page")}
+                  className="border border-gray-700 rounded-3xl cursor-pointer px-6 py-2 mt-2 text-gray-700 hover:bg-gray-700 hover:text-white transition-all"
+                >
                   <span className="text-sm font-semibold">Calculate Price</span>
                 </button>
               </div>
