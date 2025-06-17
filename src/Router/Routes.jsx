@@ -12,9 +12,6 @@ import Section from "../Component/More/Faqs/Section";
 import Footer from "../Component/Footer/Footer";
 import Contact from "../Component/More/Contact/Contact";
 import Login from "../Component/Auth/Login";
-import Bhk from "../Component/ChildSection/Calculator/Full_interior/Bhk";
-import Kitchen_interior from "../Component/ChildSection/Calculator/Kitchen/kitchen_interior";
-import Wordrobe_interior from "../Component/ChildSection/Calculator/Wordrode/Wordrobe_interior";
 import Error from "../Component/ChildSection/Error";
 
 const RoutesSetting = () => {
@@ -33,16 +30,7 @@ const RoutesSetting = () => {
         <Route path="/more/about" element={<About />} />
         <Route path="/more/Pricing" element={<Pricing />} />
         <Route path="/more/contact" element={<Contact />} />
-        <Route path="/home-interior-price-calculator" element={<Bhk />} />
-        <Route
-          path="/Kitchen-interior-price-calculator"
-          element={<Kitchen_interior />}
-        />
-
-        <Route
-          path="/Wardrobe-interior-price-calculator"
-          element={<Wordrobe_interior />}
-        />
+        
         <Route path="/error-page" element={<Error />} />
       </Routes>
       <div className="relative top-10">
