@@ -11,7 +11,7 @@ const style = {
   transform: "translate(-50%, -50%)",
   width: 450,
   border: "2px solid transparent",
-  borderRadius:7
+  borderRadius: 7,
 };
 
 const AuthModel = ({ handleClose, open }) => {
@@ -24,7 +24,7 @@ const AuthModel = ({ handleClose, open }) => {
       aria-labelledby="modal-modal-title"
       aria-describedby="modal-modal-description"
     >
-      <Box sx={style}>
+      <Box sx={style} className=" px-8 sm:px-0">
         {location.pathname === "/register" ? <Registration /> : <Login />}
       </Box>
     </Modal>

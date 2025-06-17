@@ -269,7 +269,10 @@ const Navbar = () => {
             <div className="flex gap-5 items-center pl-8 pr-2">
               <div className="space-x-2 flex gap-5 items-center text-2xl">
                 <PiToolboxFill />
-                <FaUserAstronaut />
+                <FaUserAstronaut
+                  onClick={handleOpen}
+                  className="cursor-pointer"
+                />
               </div>
 
               <button
