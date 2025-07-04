@@ -1,6 +1,6 @@
 export const mainCarouselData = [
     {
-        image: "/public/images/demo.jpg",
+        image: "/images/demo.jpg",
         title: "Modern Living",
         description: "Experience the best in modern home designs."
     },
