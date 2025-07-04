@@ -3,16 +3,16 @@ import "react-alice-carousel/lib/alice-carousel.css"; // Import Alice Carousel s
 
 const Companies = () => {
   const companies = [
-    { src: "/src/assets/images/amazon.svg", alt: "Facebook" },
-    { src: "/src/assets/images/coca-cola.svg", alt: "Disney" },
-    { src: "/src/assets/images/instagram.svg", alt: "Airbnb" },
-    { src: "/src/assets/images/tesla.svg", alt: "Apple" },
-    { src: "/src/assets/images/spacex.svg", alt: "Spark" },
-    { src: "/src/assets/images/samsung.svg", alt: "Samsung" },
-    { src: "/src/assets/images/sony.svg", alt: "Quora" },
-    { src: "/src/assets/images/nike-3.svg", alt: "Sass" },
-    { src: "/src/assets/images/netflix-2.svg", alt: "Sass" },
-    { src: "/src/assets/images/microsoft-azure.svg", alt: "Sass" },
+    { src: "/public/images/amazon.svg", alt: "Facebook" },
+    { src: "/public/images/coca-cola.svg", alt: "Disney" },
+    { src: "/public/images/instagram.svg", alt: "Airbnb" },
+    { src: "/public/images/tesla.svg", alt: "Apple" },
+    { src: "/public/images/spacex.svg", alt: "Spark" },
+    { src: "/public/images/samsung.svg", alt: "Samsung" },
+    { src: "/public/images/sony.svg", alt: "Quora" },
+    { src: "/public/images/nike-3.svg", alt: "Sass" },
+    { src: "/public/images/netflix-2.svg", alt: "Sass" },
+    { src: "/public/images/microsoft-azure.svg", alt: "Sass" },
   ];
 
   const items = companies.map((company, index) => (

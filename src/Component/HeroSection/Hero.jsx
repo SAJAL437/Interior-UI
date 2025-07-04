@@ -2,7 +2,7 @@ import Navbar from "../navbar/Navbar";
 import Carousel from "../Caresoul/Caresoul";
 import { Router } from "react-router-dom";
 
-const Demo1 = () => {
+const Demo1 = () => { 
   return (
     <>
       <Navbar />

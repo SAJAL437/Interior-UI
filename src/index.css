@@ -8,7 +8,8 @@ body {
 
 /* hero-section */
 .bg-img {
-    background-image: url(./assets/images/background.jpg);
+    background-image:url(/public/images/background.jpg) ;
+    /* background-image: url(./assets/images/background.jpg); */
     height: 97vh;
     object-position: bottom;
 }
