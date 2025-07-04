@@ -3,16 +3,16 @@ import "react-alice-carousel/lib/alice-carousel.css"; // Import Alice Carousel s
 
 const Companies = () => {
   const companies = [
-    { src: "/public/images/amazon.svg", alt: "Facebook" },
-    { src: "/public/images/coca-cola.svg", alt: "Disney" },
-    { src: "/public/images/instagram.svg", alt: "Airbnb" },
-    { src: "/public/images/tesla.svg", alt: "Apple" },
-    { src: "/public/images/spacex.svg", alt: "Spark" },
-    { src: "/public/images/samsung.svg", alt: "Samsung" },
-    { src: "/public/images/sony.svg", alt: "Quora" },
-    { src: "/public/images/nike-3.svg", alt: "Sass" },
-    { src: "/public/images/netflix-2.svg", alt: "Sass" },
-    { src: "/public/images/microsoft-azure.svg", alt: "Sass" },
+    { src: "/images/amazon.svg", alt: "Facebook" },
+    { src: "/images/coca-cola.svg", alt: "Disney" },
+    { src: "/images/instagram.svg", alt: "Airbnb" },
+    { src: "/images/tesla.svg", alt: "Apple" },
+    { src: "/images/spacex.svg", alt: "Spark" },
+    { src: "/images/samsung.svg", alt: "Samsung" },
+    { src: "/images/sony.svg", alt: "Quora" },
+    { src: "/images/nike-3.svg", alt: "Sass" },
+    { src: "/images/netflix-2.svg", alt: "Sass" },
+    { src: "/images/microsoft-azure.svg", alt: "Sass" },
   ];
 
   const items = companies.map((company, index) => (
