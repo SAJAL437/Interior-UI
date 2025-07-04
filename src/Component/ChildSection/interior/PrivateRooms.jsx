@@ -1,49 +1,49 @@
 const images = [
   {
     id: 1,
-    src: "https://images8.alphacoders.com/595/595107.jpg",
+    src: "https://i.pinimg.com/736x/98/45/5a/98455a2e55494e6a885c95b56123672b.jpg",
     title: "Luxury Private House",
     description:
       "A stunning modern house with elegant interiors and breathtaking views.",
   },
   {
     id: 2,
-    src: "https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://i.pinimg.com/736x/8d/34/33/8d3433dbbea7f8e311b25c5469ec20f3.jpg",
     title: "Modern Mansion",
     description:
       "A spacious and luxurious mansion with top-notch architecture.",
   },
   {
     id: 3,
-    src: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://i.pinimg.com/736x/b5/0d/ae/b50daee41241aa9ee09682290848b6e4.jpg",
     title: "Elegant Villa",
     description:
       "A beautiful villa with breathtaking sunset views and a private pool.",
   },
   {
     id: 4,
-    src: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://i.pinimg.com/736x/e7/83/55/e78355a2f5a17fb99abad7d000d48e07.jpg",
     title: "Elegant Villa",
     description:
       "A beautiful villa with breathtaking sunset views and a private pool.",
   },
   {
     id: 5,
-    src: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://i.pinimg.com/736x/80/f7/6a/80f76ade87df8312ece2bbcd42c7da36.jpg",
     title: "Elegant Villa",
     description:
       "A beautiful villa with breathtaking sunset views and a private pool.",
   },
   {
     id: 6,
-    src: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://i.pinimg.com/736x/7e/ef/ef/7eefefb5a2ad91513a146a91ef7026bb.jpg",
     title: "Elegant Villa",
     description:
       "A beautiful villa with breathtaking sunset views and a private pool.",
   },
   {
     id: 7,
-    src: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://i.pinimg.com/736x/f1/73/0b/f1730ba0520e30d182cb2f689c8b53a4.jpg",
     title: "Elegant Villa",
     description:
       "A beautiful villa with breathtaking sunset views and a private pool.",

@@ -13,10 +13,12 @@ import Footer from "../Component/Footer/Footer";
 import Contact from "../Component/More/Contact/Contact";
 import Login from "../Component/Auth/Login";
 import Error from "../Component/ChildSection/Error";
+import ScrollToTop from "../Component/Scroll";
 
 const RoutesSetting = () => {
   return (
     <>
+      <ScrollToTop />
       <Routes>
         <Route path="/login" element={<Interior />} />
         <Route path="/register" element={<Interior />} />
@@ -30,7 +32,7 @@ const RoutesSetting = () => {
         <Route path="/more/about" element={<About />} />
         <Route path="/more/Pricing" element={<Pricing />} />
         <Route path="/more/contact" element={<Contact />} />
-        
+
         <Route path="/error-page" element={<Error />} />
       </Routes>
       <div className="relative top-10">

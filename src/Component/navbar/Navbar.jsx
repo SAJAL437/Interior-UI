@@ -57,6 +57,7 @@ const Navbar = () => {
 
   const handleNavigateClick = (href) => {
     navigate(href);
+    window.scrollTo(0, 0);
   };
 
   const toggleMobileMenu = () => {

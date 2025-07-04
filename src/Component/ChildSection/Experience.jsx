@@ -81,7 +81,8 @@ const Experience = () => {
           >
             <video
               className="w-full cursor-pointer h-full object-cover ease-in-out transition-transform duration-500"
-              src="/src/assets/videos/interior.mp4"
+              src="/public/videos/interior.mp4"
+              // src="https://pin.it/1DPhp5tEb"
               autoPlay
               loop
               muted

@@ -6,7 +6,6 @@ import WhatweDo from "../../Component/ChildSection/Whatwedo/WhatweDo";
 import Testenomial from "../../Component/ChildSection/testenomial/Testenomial";
 import Subscription from "../../Component/ChildSection/Subscription";
 import Shopping from "../../Component/ChildSection/Shopping/Shopping";
-import Navbar from "../../Component/navbar/Navbar";
 const Interior = () => {
   return (
     <div>
@@ -14,7 +13,6 @@ const Interior = () => {
         <Hero />
         <Experience />
         <Interiors />
-        {/* <Calculate /> */}
         <WhatweDo />
         <Shopping />
         <Testenomial />

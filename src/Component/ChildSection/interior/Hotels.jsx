@@ -1,28 +1,28 @@
 const images = [
   {
     id: 1,
-    src: "https://images8.alphacoders.com/595/595107.jpg",
+    src: "https://images.adsttc.com/media/images/63b4/51d5/2eb2/f84b/4ca6/d1fb/newsletter/hotel-tt-design-by-83_1.jpg?1672761845",
     title: "Luxury Private House",
     description:
       "A stunning modern house with elegant interiors and breathtaking views.",
   },
   {
     id: 2,
-    src: "https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://i.pinimg.com/736x/de/25/75/de257579726d8f7953e502cdddc7dc8e.jpg",
     title: "Modern Mansion",
     description:
       "A spacious and luxurious mansion with top-notch architecture.",
   },
   {
     id: 3,
-    src: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://i.pinimg.com/736x/dc/b2/94/dcb294b5ce0e0876b1fac8cf742b7da1.jpg",
     title: "Elegant Villa",
     description:
       "A beautiful villa with breathtaking sunset views and a private pool.",
   },
   {
     id: 4,
-    src: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://i.pinimg.com/736x/19/aa/91/19aa915e2deadb57c60466a2559e32b9.jpg",
     title: "Elegant Villa",
     description:
       "A beautiful villa with breathtaking sunset views and a private pool.",

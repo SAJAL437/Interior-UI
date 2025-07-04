@@ -1,35 +1,35 @@
 const images = [
   {
     id: 1,
-    src: "https://images8.alphacoders.com/595/595107.jpg",
+    src: "https://plus.unsplash.com/premium_photo-1674676471104-3c4017645e6f?q=80&w=670&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "Luxury Private House",
     description:
       "A stunning modern house with elegant interiors and breathtaking views.",
   },
   {
     id: 2,
-    src: "https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://images.unsplash.com/photo-1560440021-33f9b867899d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDh8fGFwYXJ0bWVudHxlbnwwfHwwfHx8MA%3D%3D",
     title: "Modern Mansion",
     description:
       "A spacious and luxurious mansion with top-notch architecture.",
   },
   {
     id: 3,
-    src: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://images.pexels.com/photos/271795/pexels-photo-271795.jpeg",
     title: "Elegant Villa",
     description:
       "A beautiful villa with breathtaking sunset views and a private pool.",
   },
   {
     id: 4,
-    src: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://images.pexels.com/photos/261045/pexels-photo-261045.jpeg",
     title: "Elegant Villa",
     description:
       "A beautiful villa with breathtaking sunset views and a private pool.",
   },
   {
     id: 5,
-    src: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg?auto=compress&cs=tinysrgb&w=600",
+    src: "https://images.pexels.com/photos/2134224/pexels-photo-2134224.jpeg",
     title: "Elegant Villa",
     description:
       "A beautiful villa with breathtaking sunset views and a private pool.",
