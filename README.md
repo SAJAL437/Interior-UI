@@ -18,7 +18,7 @@
 
 ## 🌐 Live Preview
 
-[🔗 Visit Website](https://http://earnestandfeast.netlify.app) 
+[🔗 Visit Website](https://earnestandfeast.netlify.app) 
 
 ---
 
